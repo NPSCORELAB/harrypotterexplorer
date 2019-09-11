@@ -1,0 +1,27 @@
+﻿Actor,Primary Spell,Counter Spell,Secondary Spell,Counter Spell,Strength of the Wizard,Location,Latitute,Longitude
+Harry Potter,Expelliarmus,Stupefy,Stupefy,Avada Kedavra,5,"Number 12, Grimmauld Place",51.524867,-0.1115
+Hermione Granger,Confundo,Imperio,Priori Incantatem,Impedimenta,5,The Burrow,50.707033,-3.315117
+Ronald Weasley,Wingardium Leviosa,Oppugno,Accio,Flipendo,4,The Burrow,50.707033,-3.315117
+Ginny Weasley,Priori Incantatem,Impedimenta,Accio,Flipendo,4,Diagon Alley,51.500125,-0.088283
+Neville Longbottom,Relashio,Petrificus Totalus,Diffindo,Relashio,4,King's Cross Station,51.531094,-0.124614
+Luna Lovegood,Homenum Revelio,Avis,Confundo,Imperio,5,Hogwarts,56.520144,-4.119358
+Lavender Brown,Sonorus,Avada Kedavra,Impedimenta,Priori Incantatem,3,Hogwarts,56.520144,-4.119358
+Cho Chang,Lumos,Levicorpus,Avis,Homenum Revelio,3,Hogsmeade Station,56.677881,-4.559528
+Dean Thomas,Sonorus,Avada Kedavra,Petrificus Totalus,Crucio,4,Hogsmeade Station,56.677881,-4.559528
+Fred Weasley,Nox,Lumos,Levicorpus,Confundo,5,The Burrow,50.707033,-3.315117
+George Weasley,Relashio,Petrificus Totalus,Impedimenta,Priori Incantatem,5,The Burrow,50.707033,-3.315117
+Parvati Patil,Expelliarmus,Stupefy,Avis,Homenum Revelio,2,Hogsmeade,56.722658,-4.747997
+Padma Patil,Avis,Homenum Revelio,Impedimenta,Priori Incantatem,2,Hogsmeade,56.722658,-4.747997
+Hannah Abbot,Impedimenta,Priori Incantatem,Diffindo,Relashio,3,Knockturn Alley,51.498492,-0.091681
+Seamus Finnigan,Diffindo,Relashio,Sonorus,Avada Kedavra,2,Knockturn Alley,51.498492,-0.091681
+Colin Creevey,Relashio,Petrificus Totalus,Confundo,Imperio,4,Hogwarts,56.520144,-4.119358
+Dennis Creevey,Confundo,Imperio,Lumos,Levicorpus,3,Hogwarts,56.520144,-4.119358
+Angelina Johnson,Petrificus Totalus,Crucio,Nox,Lumos,2,Little Hangleton,54.069753,-1.844747
+Alicia Spinnet,Levicorpus,Confundo,Sonorus,Avada Kedavra,1,Little Hangleton,54.069753,-1.844747
+Zacharias Smith,Homenum Revelio,Avis,Expelliarmus,Stupefy,4,Diagon Alley,51.500125,-0.088283
+Susan Bones,Priori Incantatem,Impedimenta,Stupefy,Avada Kedavra,2,Diagon Alley,51.500125,-0.088283
+Michael Corner,Impedimenta,Priori Incantatem,Relashio,Petrificus Totalus,4,King's Cross Station,51.531094,-0.124614
+Terry Boot,Lumos,Levicorpus,Sonorus,Avada Kedavra,1,King's Cross Station,51.531094,-0.124614
+Anthony Goldstein,Wingardium Leviosa,Oppugno,Confundo,Imperio,3,Hogsmeade,56.722658,-4.747997
+Marietta Edgecombe,Sonorus,Avada Kedavra,Expelliarmus,Stupefy,3,Little Whinging,51.278797,-0.551286
+Katie Bell,Confundo,Imperio,Accio,Flipendo,4,Little Whinging,51.278797,-0.551286

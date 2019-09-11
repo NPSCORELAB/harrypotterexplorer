@@ -1,0 +1,19 @@
+﻿Actor,Location,Primary Spell,Counter Spell,Secondary Spell,Counter Spell,Strength of the Wizard,Latitude,Longitute
+Lord Voldemort,Godric's Hollow,Avada Kedavra,Expelliarmus,Flipendo,Accio,5,50.979144,-3.589586
+Rodolphus Lestrange,Malfoy Manor,Crucio,Confundo,Stupefy,Expelliarmus,3,51.347628,-1.996403
+Bellatrix Lestrange,Azkaban,Imperio,Petrificus Totalus,Crucio,Confundo,4,56.756583,1.307619
+Walden Macnair,Knockturn Alley,Oppugno,Wingardium Leviosa,Homenum Revelio,Avis,2,51.498492,-0.091681
+Augustus Rookwood,King's Cross Station,Levicorpus,Confundo,Imperio,Petrificus Totalus,3,51.531094,-0.124614
+Antonin Dolohov,Gringotts Wizarding Bank,Crucio,Confundo,Relashio,Petrificus Totalus,3,51.501181,-0.089047
+Corban Yaxley,Diagon Alley,Priori Incantatem,Impedimenta,Impedimenta,Priori Incantatem,1,51.500125,-0.088283
+Alecto Carrow,Hogwarts,Crucio,Confundo,Sonorus,Confundo,3,56.520144,-4.119358
+Amycus Carrow,Hogwarts,Petrificus Totalus,Relashio,Crucio,Confundo,3,56.520144,-4.119358
+Peter Pettigrew,Godric's Hollow,Confundo,Levicorpus,Accio,Flipendo,2,50.979144,-3.589586
+Lucius Malfoy,The Three Broomsticks,Flipendo,Accio,Imperio,Petrificus Totalus,4,56.907394,-4.747203
+Barty Crouch Jr.,The Leaky Cauldron,Imperio,Petrificus Totalus,Avada Kedavra,Expelliarmus,4,51.509153,-0.129547
+Theodore Nott,Hogsmeade Station,Oppugno,Wingardium Leviosa,Avis,Homenum Revelio,2,56.677881,-4.559528
+Vincent Crabbe Jr.,Ministry of Magic,Expelliarmus,Stupefy,Impedimenta,Priori Incantatem,3,51.504211,-0.126936
+Gregory Goyle,Ministry of Magic,Sonorus,Diffindo,Diffindo,Relashio,3,51.504211,-0.126936
+Avery,Little Hangleton,Relashio,Petrificus Totalus,Levicorpus,Confundo,2,54.069753,-1.844747
+Fenrir Greyback,The Burrow,Bite,Petrificus Totalus,Kill,Stupefy,0,50.707033,-3.315117
+Draco Malfoy,Gringotts Wizarding Bank,Stupefy,Expelliarmus,Avada Kedavra,Expelliarmus,4,51.501181,-0.089047
