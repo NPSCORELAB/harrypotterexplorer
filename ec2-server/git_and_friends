@@ -1,0 +1,19 @@
+# Clone repo to server:
+git clone https://github.com/NPSCORELAB/harrypotterexplorer.git
+
+# Go to file, check it is all there:
+ls harrypotterexplorer
+
+# Move folder to shiny-server
+sudo su
+cp -r harrypotterexplorer/ /srv/shiny-server/
+exit
+
+# Check it is there:
+ls /srv/shiny-server/
+
+# Install all required packages
+sudo su - -c "R -e \"install.packages(c('leaflet', 'DT', 'visNetwork', 'igraph', 'shinyBS', 'shinythemes'), repos = 'http://cran.rstudio.com/')\""
+
+# Restart server:
+sudo systemctl restart shiny-server
