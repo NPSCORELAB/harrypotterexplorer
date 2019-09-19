@@ -113,7 +113,7 @@ shinyServer(function(input, output, session) {
       temp_net$nodes$size <- scales::rescale(temp_net$nodes$Degree,
                                              to = c(5,20))
     }
-    if (size_nodes_by == "Strength") {
+    if (size_nodes_by == "Wizard Strength") {
       temp_net$nodes$size <- scales::rescale(temp_net$nodes$Strength,
                                              to = c(5,20))
     }
@@ -175,7 +175,7 @@ shinyServer(function(input, output, session) {
   # Network metrics using reactive network:
   output$network_def_da <- renderText({
     node_sizer2 <- input$node_sizer
-    if (node_sizer2 == "None" | node_sizer2 == "Strength") {
+    if (node_sizer2 == "None" | node_sizer2 == "Wizard Strength") {
       return(NULL)
     } else
       if (node_sizer2 == "Degree") {
@@ -245,7 +245,7 @@ shinyServer(function(input, output, session) {
   output$node_centz <- renderText({
     temp_net2 <- create_da_network()
     node_sizer2 <- input$node_sizer
-    if (node_sizer2 == "None" | length(temp_net2) < 1 | node_sizer2 == "Strength") {
+    if (node_sizer2 == "None" | length(temp_net2) < 1 | node_sizer2 == "Wizard Strength") {
       return(NULL)
     } else
     if (node_sizer2 == "Degree") {
@@ -289,7 +289,7 @@ shinyServer(function(input, output, session) {
     if (length(temp_net2) < 1) {
       return(NULL)
     } else {
-      for_dt <- temp_net2$nodes[,c("Strength",
+      for_dt <- temp_net2$nodes[,c("Wizard Strength",
                                    "Degree",
                                    "Betweenness",
                                    "Closeness",
@@ -372,7 +372,7 @@ shinyServer(function(input, output, session) {
       temp_net$nodes$size <- scales::rescale(temp_net$nodes$Degree,
                                              to = c(5,20))
     }
-    if (size_nodes_by_death == "Strength") {
+    if (size_nodes_by_death == "Wizard Strength") {
       temp_net$nodes$size <- scales::rescale(temp_net$nodes$Strength,
                                              to = c(5,20))
     }
@@ -429,7 +429,7 @@ shinyServer(function(input, output, session) {
   # Network measures using reactive network:
   output$network_def_death <- renderText({
     node_sizer2 <- input$node_sizer_death
-    if (node_sizer2 == "None" | node_sizer2 == "Strength") {
+    if (node_sizer2 == "None" | node_sizer2 == "Wizard Strength") {
       return(NULL)
     } else
       if (node_sizer2 == "Degree") {
@@ -500,7 +500,7 @@ shinyServer(function(input, output, session) {
   output$node_centz_death <- renderText({
     temp_net2 <- create_death_network()
     node_sizer2 <- input$node_sizer_death
-    if (node_sizer2 == "None" | length(temp_net2) < 1 | node_sizer2 == "Strength") {
+    if (node_sizer2 == "None" | length(temp_net2) < 1 | node_sizer2 == "Wizard Strength") {
       return(NULL)
     } else
       if (node_sizer2 == "Degree") {
@@ -545,7 +545,7 @@ shinyServer(function(input, output, session) {
     if (length(temp_net2) < 1) {
       return(NULL)
     } else {
-      for_dt <- temp_net2$nodes[,c("Strength",
+      for_dt <- temp_net2$nodes[,c("Wizard Strength",
                                     "Degree",
                                     "Betweenness",
                                     "Closeness",
