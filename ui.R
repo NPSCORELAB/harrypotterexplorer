@@ -78,7 +78,7 @@ shinyUI(
                       )
              ),
              # Start - Deatheater's Network  -----------------------------------
-             tabPanel("Deatheaters' Network",
+             tabPanel("Death Eaters' Network",
                       sidebarPanel(
                         tags$h4("Choose how to visualize network:"),
                         sliderInput(inputId = "network_strength_death",
@@ -126,7 +126,7 @@ shinyUI(
                       )
              ),
              # Start - Geospatial Events ---------------------------------------
-             tabPanel("Geospatial Events",
+             tabPanel("Geospatial",
                       mainPanel(
                         leafletOutput("da_geo",
                                       height = "800px"),
