@@ -77,7 +77,7 @@ shinyUI(
                         )
                       )
              ),
-             # Start - Deatheater's Network  -----------------------------------
+             # Start - Death Eater's Network  -----------------------------------
              tabPanel("Death Eaters' Network",
                       sidebarPanel(
                         tags$h4("Choose how to visualize network:"),

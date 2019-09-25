@@ -32,11 +32,11 @@ shinyServer(function(input, output, session) {
                  lng            = ~ Long,
                  lat            = ~ Lat,
                  popup          = ~ new_name,
-                 group          = "Deatheaters",
+                 group          = "Death Eaters",
                  clusterOptions = markerClusterOptions()
                  ) %>%
       addLayersControl(overlayGroups = c("Dumbledore's Army",
-                                         "Deatheaters"),
+                                         "Death Eaters"),
                        options       = layersControlOptions(collapsed = FALSE)
       )
   })
@@ -179,16 +179,16 @@ shinyServer(function(input, output, session) {
       return(NULL)
     } else
       if (node_sizer2 == "Degree") {
-        out_text <- "Network members who have a high number of degree centrality will be the ones with all the information and the resources needed to carry out the mission."
+        out_text <- "Network members who have a high degree centrality will may have direct influence and have the information and resources needed to carry out the mission."
       }
     if (node_sizer2 == "Betweenness") {
       out_text <- "Another name for betweenness could be “bridge”, betweenness tells us who connects the separate groups within each network. Individuals with a high degree of betweenness are more important than those with less to supporting the mission because they connect everybody together."
     }
     if (node_sizer2 == "Closeness") {
-      out_text <- "Closeness is how connected an individual is to the other members of the network. The individuals with the higher levels of closeness are considered more trustworthy."
+      out_text <- "Closeness is how connected an individual is to the other members of the network. The individuals with higher levels of closeness are considered more trustworthy."
     }
     if (node_sizer2 == "Eigenvector") {
-      out_text <- "Members with a high degree of Eigenvector centrality are the key members of the network. Without these members the network will be weakened, and the mission will be in jeopardy."
+      out_text <- "Members with a high degree of Eigenvector centrality are key members of the network and likely have high indirect influence. Without these members the network will be weakened, and the mission will be in jeopardy."
     }
     return(out_text)
   })
@@ -304,7 +304,7 @@ shinyServer(function(input, output, session) {
     }
   })
   
-  # Start - Deatheater's Output ------------------------------------------------
+  # Start - Death Eater's Output ------------------------------------------------
   # Reactive network
   create_death_network <- reactive({
     cutoff <- input$network_strength_death
@@ -439,13 +439,14 @@ shinyServer(function(input, output, session) {
       out_text <- "Another name for betweenness could be “bridge”, betweenness tells us who connects the separate groups within each network. Individuals with a high degree of betweenness are more important than those with less to supporting the mission because they connect everybody together."
     }
     if (node_sizer2 == "Closeness") {
-      out_text <- "Closeness is how connected an individual is to the other members of the network. The individuals with the higher levels of closeness are considered more trustworthy."
+      out_text <- "Closeness is how connected an individual is to the other members of the network. The individuals with higher levels of closeness are considered more trustworthy."
     }
     if (node_sizer2 == "Eigenvector") {
-      out_text <- "Members with a high degree of Eigenvector centrality are the key members of the network. Without these members the network will be weakened, and the mission will be in jeopardy."
+      out_text <- "Members with a high degree of Eigenvector centrality are key members of the network and likely have high indirect influence. Without these members the network will be weakened, and the mission will be in jeopardy."
     }
     return(out_text)
   })
+  
   
   # Network measures output from reactive network:
   output$node_count_death <- renderText({
