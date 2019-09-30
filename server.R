@@ -289,11 +289,13 @@ shinyServer(function(input, output, session) {
     if (length(temp_net2) < 1) {
       return(NULL)
     } else {
-      for_dt <- temp_net2$nodes[,c("Wizard Strength",
+      for_dt <- temp_net2$nodes[,c("Strength",
                                    "Degree",
                                    "Betweenness",
                                    "Closeness",
-                                   "Eigenvector")]
+                                   "Eigenvector")]  %>%
+        dplyr::rename(`Wizard Strength` = "Strength")
+      
       datatable(for_dt) %>%
         formatRound('Betweenness',
                     digits = 3) %>%
@@ -546,11 +548,13 @@ shinyServer(function(input, output, session) {
     if (length(temp_net2) < 1) {
       return(NULL)
     } else {
-      for_dt <- temp_net2$nodes[,c("Wizard Strength",
+      for_dt <- temp_net2$nodes[,c("Strength",
                                     "Degree",
                                     "Betweenness",
                                     "Closeness",
-                                    "Eigenvector")]
+                                    "Eigenvector")] %>%
+        dplyr::rename(`Wizard Strength` = "Strength")
+      
       datatable(for_dt) %>%
         formatRound('Betweenness',
                     digits = 3) %>%
