@@ -1,0 +1,56 @@
+Primary.Spell,Counter.Spell,Secondary.Spell,Counter.Spell.1,id
+Avada Kedavra,Expelliarmus,Flipendo,Accio,Lord Voldemort
+Crucio,Confundo,Stupefy,Expelliarmus,Rodolphus Lestrange
+Imperio,Petrificus Totalus,Crucio,Confundo,Bellatrix Lestrange
+Oppugno,Wingardium Leviosa,Homenum Revelio,Avis,Walden Macnair
+Levicorpus,Confundo,Imperio,Petrificus Totalus,Augustus Rookwood
+Crucio,Confundo,Relashio,Petrificus Totalus,Antonin Dolohov
+Priori Incantatem,Impedimenta,Impedimenta,Priori Incantatem,Corban Yaxley
+Crucio,Confundo,Sonorus,Confundo,Alecto Carrow
+Petrificus Totalus,Relashio,Crucio,Confundo,Amycus Carrow
+Confundo,Levicorpus,Accio,Flipendo,Peter Pettigrew
+Flipendo,Accio,Imperio,Petrificus Totalus,Lucius Malfoy
+Imperio,Petrificus Totalus,Avada Kedavra,Expelliarmus,"Barty Crouch, Jr."
+Oppugno,Wingardium Leviosa,Avis,Homenum Revelio,"Nott,ÊSr."
+Expelliarmus,Stupefy,Impedimenta,Priori Incantatem,"_Crabbe, Sr."
+Sonorus,Diffindo,Diffindo,Relashio,"Goyle, Sr."
+Relashio,Petrificus Totalus,Levicorpus,Confundo,Avery
+Bite,Petrificus Totalus,Kill,Stupefy,Fenrir Greyback
+Stupefy,Expelliarmus,Avada Kedavra,Expelliarmus,Draco Malfoy
+Expelliarmus,Stupefy,Stupefy,Avada Kedavra,Harry Potter
+Confundo,Imperio,Priori Incantatem,Impedimenta,Hermione Granger
+Wingardium Leviosa,Oppugno,Accio,Flipendo,Ronald Weasley
+Priori Incantatem,Impedimenta,Accio,Flipendo,Ginny Weasley
+Relashio,Petrificus Totalus,Diffindo,Relashio,Neville Longbottom
+Homenum Revelio,Avis,Confundo,Imperio,Luna Lovegood
+Sonorus,Avada Kedavra,Impedimenta,Priori Incantatem,Lavender Brown
+Lumos,Levicorpus,Avis,Homenum Revelio,Cho Chang
+Sonorus,Avada Kedavra,Petrificus Totalus,Crucio,Dean Thomas
+Nox,Lumos,Levicorpus,Confundo,Fred Weasley
+Relashio,Petrificus Totalus,Impedimenta,Priori Incantatem,George Weasley
+Expelliarmus,Stupefy,Avis,Homenum Revelio,Parvati Patil
+Avis,Homenum Revelio,Impedimenta,Priori Incantatem,Padma Patil
+Impedimenta,Priori Incantatem,Diffindo,Relashio,Hannah Abbot
+Diffindo,Relashio,Sonorus,Avada Kedavra,Seamus Finnigan
+Relashio,Petrificus Totalus,Confundo,Imperio,Colin Creevey
+Confundo,Imperio,Lumos,Levicorpus,Dennis Creevey
+Petrificus Totalus,Crucio,Nox,Lumos,Angelina Johnson
+Levicorpus,Confundo,Sonorus,Avada Kedavra,Alicia Spinnet
+Homenum Revelio,Avis,Expelliarmus,Stupefy,Zacharias Smith
+Priori Incantatem,Impedimenta,Stupefy,Avada Kedavra,Susan Bones
+Impedimenta,Priori Incantatem,Relashio,Petrificus Totalus,Michael Corner
+Lumos,Levicorpus,Sonorus,Avada Kedavra,Terry Boot
+Wingardium Leviosa,Oppugno,Confundo,Imperio,Anthony Goldstein
+Sonorus,Avada Kedavra,Expelliarmus,Stupefy,Marietta Edgecombe
+Confundo,Imperio,Accio,Flipendo,Katie Bell
+Morsmorde,Evanesco,Crucio,Confundo,Gibbon
+Impedimenta,Priori Incantatem,Sonorus,Diffindo,Jugson
+Crucio,Confundo,Stupefy,Expelliarmus,Rabastan Lestrange
+Imperio,Petrificus Totalus,Crucio,Confundo,Mulciber
+Silencio,Sonorus,Avada Kedavra,Expelliarmus,Thorfinn Rowle
+Homenum Revelio,Avis,Avada Kedavra,Expelliarmus,Selwyn
+Homenum Revelio,Avis,Imperio,Petrificus Totalus,Travers
+Sectumsempra,Vulnera Sanentur,Legelimens,Occlumency,Severus Snape
+Protego,Avada Kedavra,Expecto Patronum,Imperio,Ernie McMillian
+Expelliarmus,Stupefy,Diffindo,Relashio,Justin Finch-Fletchley
+Wingardium Leviosa,Oppugno,Evanesco,Incedio,Lee Jordan
