@@ -80,6 +80,12 @@ shinyUI(
              # Start - Death Eater's Network  -----------------------------------
              tabPanel("Death Eaters' Network",
                       sidebarPanel(
+                        tags$h4("Choose whether to include Severus Snape"),
+                        radioButtons(inputId = "inc_snape",
+                                     label = "Include Severus Snape?",
+                                     choices = c("Yes" = "y",
+                                                 "No" = "n"),
+                                     ),
                         tags$h4("Choose how to visualize network:"),
                         sliderInput(inputId = "network_strength_death",
                                     label   = "Strength of tie cutoff:",
