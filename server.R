@@ -685,6 +685,38 @@ shinyServer(function(input, output, session) {
     death_reac_vals$death_net <- death_net
   })
   
+  # Node Sizing
+  observeEvent(input$node_sizer_death, ignoreInit = TRUE, {
+    size_nodes_by <- input$node_sizer_death
+    temp_nodes <- death_reac_vals$death_net$nodes
+    
+    if(size_nodes_by == "Degree"){
+      temp_nodes$size <- scales::rescale(temp_nodes$Degree, to = c(5,20))
+    }
+    if(size_nodes_by == "Wizard Strength"){
+      temp_nodes$size <- scales::rescale(temp_nodes$Strength, to = c(5,20))
+    }
+    if(size_nodes_by == "Closeness"){
+      temp_nodes$size <- scales::rescale(temp_nodes$Closeness, to = c(5,20))
+    }
+    if(size_nodes_by == "Betweenness"){
+      temp_nodes$size <- scales::rescale(temp_nodes$Betweenness, to = c(5,20))
+    }
+    if(size_nodes_by == "Eigenvector"){
+      temp_nodes$size <- scales::rescale(temp_nodes$Eigenvector, to = c(5,20))
+    }
+    if(size_nodes_by == "None"){
+      temp_nodes$size <- 20
+    }
+    
+    visNetworkProxy("death_net") %>%
+      visUpdateNodes(temp_nodes, 
+                     updateOptions = FALSE)
+    
+    death_reac_vals$death_net$nodes <- temp_nodes
+    
+  })
+  
   
   # Network measures using reactive network:
   output$network_def_death <- renderText({
