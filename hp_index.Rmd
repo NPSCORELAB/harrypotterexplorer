@@ -1,28 +1,66 @@
 ---
-title: "hp_index"
+title: "Dumbledore's Army v.s. The Death Eaters: A Social Network Analysis Project"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+# ---
+#   title: "Dumbledore's Army v.s. The Death Eaters: A Social Network Analysis Project"
+# output: html_document
+# ---
+  
+  ## The Harry Potter Explorer Application can be Accessed Here: <http://harrypotterexplorer.com/app/>
+  ## Supporting Documentation can be Accessed Here: <https://github.com/NPSCORELAB/harrypotterexplorer>
+# p style = "text-align: center;"  Are you up to no good?
+``` 
+ 
+ 
+
+
+```{r fig.width= 5, fig.height= 30, echo= FALSE}
+library(png)
+library(grid)
+img <- readPNG("www/Marauder.png") 
+grid.raster(img)
+
+fig.asp = 0.1
+
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## The Application as an Educational Tool
 
-```{r cars}
-summary(cars)
-```
+The Harry Potter Explorer was developed by graduate students and faculty at the Naval Postgraduate School in Monterey, CA to provide an avenue of exposure to statistical analysis techniques for middle and high school students that attempt to explain a given social network. Using J.K. Rowling's Harry Potter series (Rowling, "Harry Potter"), the application provides a familiar story while introducing unfamiliar methods.
 
-## Including Plots
+Additionally, this application provides a means to interact with a large amount of data. Should the same information be provided via spreadsheets, pins on a map, and various other documents the ability to discern what the data is telling you is severely degraded. To that point, the application shows that "big data" can be transformed into meaningful visualizations. 
 
-You can also embed plots, for example:
+The application's intended learning objectives include developing a reasoned course of action to disrupt the Death Eater's network. By interpreting and exploring the strengths and weaknesses presented by both the Dumbledore's Army and the Death Eater's, students can identify and defend any multitude of potential actions to disrupt the Death Eaters. While there are not any necessarily wrong options, good options use the analytical tools provided in the application to support their choice.  
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## The Scenario
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+SNA has been used, for example, to enhance corporate effectiveness as well as to develop counter-terrorism and counter-drug cartel operations. By understanding how an organization or a group of organizations operate and interact, policy can be developed to either increase productivity or disrupt "dark" networks. This application provides a scenario where students can both determine ways to support Dumbledore's Army as well as disrupt the Death Eaters. 
+
+The application's objective is to identify where each of the organizations is strongest and weakest and use the information to develop options to disrupt the Death Eaters network. As such, any sort of backstory can be easily developed to commence the analytical process. The scenario developed at the Naval Postgraduate School simply divided students into groups of four or five and labeled each as one of Professor Dumbledore's intelligence cells. Having multiple groups provides for competing courses of action, which ensures each group considers the viability of the option they develop. The students are prompted with the following questions: 
+  
+  Who are you going to stop?
+  Who are you going to send?
+  Where are you going to send them?
+  What spells match up?
+  
+  
+  ## The Geospatial Tab
+  
+  This tab displays Dumbledore's Army and the Death Eaters' members location
+
+## The Dumbledore's Army and Death Eater's Network Tabs
+
+This tab provides the sociogram with the associated statistic measurement options.
+
+Because the strength of the relationships are weighted, where a "1" equals a weak relationship and a "5" equals a strong relationship, a "Strength of tie cutoff" slide is provided. This can show where the network is strongest based on how strong the relationships are. 
+
+The "Size nodes by measure" provides a list of SNA centrality measurements with the associated interpretation. The nodes will adjust size dependent on the measurement chosen, where the larger node means they rank higher in that centrality measure.
+
+The network member's attributes can be viewed by clicking on the "Table" link
+
